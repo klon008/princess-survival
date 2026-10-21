@@ -116,7 +116,7 @@ if ($exeEntry) { $manifest.exe = $exeEntry }
 if ($manifestNotes) { $manifest.notes = $manifestNotes }
 if ($Repo) {
     $manifest.repo        = $Repo
-    $manifest.downloadUrl = "https://github.com/$Repo/releases/latest/download/$zipName"
+    $manifest.downloadUrl = "https://github.com/$Repo/releases/download/v$Version/$zipName"
 }
 
 # BOM-less UTF-8: some JSON parsers choke on a BOM.

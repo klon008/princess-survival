@@ -62,6 +62,9 @@ else {
 }
 if ($LASTEXITCODE -ne 0) { throw "gh release create failed with exit code $LASTEXITCODE." }
 
+Write-Host 'Updating stable game manifest and changelog on main ...'
+& (Join-Path $PSScriptRoot 'sync-stable-manifests.ps1') -Repo $Repo -ManifestPath $manifestPath -ChangelogPath $changelogPath
+
 if ($PruneOld) {
     Write-Host "Pruning old releases (keeping $Keep newest) ..."
     $tags = @(gh release list -R $Repo --json tagName --jq '.[].tagName' |
@@ -76,7 +79,7 @@ if ($PruneOld) {
 
 Write-Host ''
 Write-Host "Published: https://github.com/$Repo/releases/tag/$tag"
-Write-Host "Stable download URLs for the launcher (always resolve to the newest release):"
-Write-Host "  https://github.com/$Repo/releases/latest/download/manifest.json"
-Write-Host "  https://github.com/$Repo/releases/latest/download/$zipName"
-Write-Host "  https://github.com/$Repo/releases/latest/download/changelog.json"
+Write-Host 'Stable game metadata URLs:'
+Write-Host "  https://raw.githubusercontent.com/$Repo/main/manifest.json"
+Write-Host "  https://raw.githubusercontent.com/$Repo/main/changelog.json"
+Write-Host "Versioned ZIP URL: https://github.com/$Repo/releases/download/$tag/$zipName"

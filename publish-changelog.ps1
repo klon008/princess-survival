@@ -47,4 +47,9 @@ if ($entry) {
     gh release edit $tag -R $Repo --notes $releaseNotes
     if ($LASTEXITCODE -ne 0) { throw "gh release edit failed with exit code $LASTEXITCODE." }
 }
+& (Join-Path $PSScriptRoot 'sync-stable-manifests.ps1') -Repo $Repo -ChangelogPath $changelogPath
+$latestTag = gh release view -R $Repo --json tagName --jq '.tagName'
+if ($LASTEXITCODE -ne 0 -or -not $latestTag) { throw 'Could not determine the latest GitHub release.' }
+gh release upload $latestTag $changelogPath -R $Repo --clobber
+if ($LASTEXITCODE -ne 0) { throw "Could not attach changelog to latest release $latestTag." }
 Write-Host "Updated: https://github.com/$Repo/releases/tag/$tag"
