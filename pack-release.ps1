@@ -47,6 +47,7 @@ if (-not (Test-Path -LiteralPath $OutputDir)) {
 $zipName      = '{0}-{1}-win64.zip' -f $ZipBaseName, $Version
 $zipPath      = Join-Path $OutputDir $zipName
 $manifestPath = Join-Path $OutputDir 'manifest.json'
+$changelogPath = Join-Path $OutputDir 'changelog.json'
 
 if ($Force -and (Test-Path -LiteralPath $zipPath)) {
     Remove-Item -LiteralPath $zipPath -Force
@@ -55,7 +56,9 @@ if ($Force -and (Test-Path -LiteralPath $zipPath)) {
 if (-not (Test-Path -LiteralPath $zipPath)) {
     Write-Host "Packing '$GameName' v$Version ..."
     # -xr! excludes by name at any depth: build tooling and previous output never get in.
-    & $SevenZip a -tzip -mx=7 $zipPath (Join-Path $SourceDir '*') '-xr!dist' '-xr!*.ps1' '-xr!manifest.json' | Out-Null
+    & $SevenZip a -tzip -mx=7 $zipPath (Join-Path $SourceDir '*') `
+        '-xr!dist' '-xr!*.ps1' '-xr!manifest.json' '-xr!changelog.json' `
+        '-xr!.git' '-xr!README.md' '-xr!.gitignore' '-xr!changelog' | Out-Null
     if ($LASTEXITCODE -ne 0) { throw "7z failed with exit code $LASTEXITCODE." }
 }
 else {
@@ -82,6 +85,24 @@ finally {
 $sha256 = (Get-FileHash -LiteralPath $zipPath -Algorithm SHA256).Hash.ToLowerInvariant()
 $size   = (Get-Item -LiteralPath $zipPath).Length
 
+& (Join-Path $PSScriptRoot 'build-changelog.ps1') -OutputPath $changelogPath
+$changelogEntries = @(Get-Content -LiteralPath $changelogPath -Raw | ConvertFrom-Json)
+$currentNotesEntry = $changelogEntries | Where-Object { $_.version -eq $Version } | Select-Object -First 1
+$manifestNotes = ''
+if ($currentNotesEntry) {
+    $noteLines = @($currentNotesEntry.title, '')
+    foreach ($section in @(@{ Label = 'Добавлено'; Values = @($currentNotesEntry.added) },
+                           @{ Label = 'Изменено'; Values = @($currentNotesEntry.changed) },
+                           @{ Label = 'Исправлено'; Values = @($currentNotesEntry.fixed) })) {
+        if ($section.Values.Count -gt 0) {
+            $noteLines += $section.Label
+            foreach ($line in $section.Values) { $noteLines += "• $line" }
+            $noteLines += ''
+        }
+    }
+    $manifestNotes = ($noteLines -join "`n").Trim()
+}
+
 $manifest = [ordered]@{
     game        = $GameName
     version     = $Version
@@ -92,6 +113,7 @@ $manifest = [ordered]@{
     sha256      = $sha256
 }
 if ($exeEntry) { $manifest.exe = $exeEntry }
+if ($manifestNotes) { $manifest.notes = $manifestNotes }
 if ($Repo) {
     $manifest.repo        = $Repo
     $manifest.downloadUrl = "https://github.com/$Repo/releases/latest/download/$zipName"
@@ -105,4 +127,5 @@ Write-Host ''
 Write-Host "Done. Files in $OutputDir :"
 Write-Host "  $zipName      ($([math]::Round($size / 1MB, 1)) MB)"
 Write-Host "  manifest.json"
+Write-Host "  changelog.json"
 Get-Content -LiteralPath $manifestPath

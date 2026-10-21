@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Publishes dist\<zip> + dist\manifest.json as a GitHub Release. Requires the gh CLI
+    Publishes the ZIP, manifest, and changelog as a GitHub Release. Requires the gh CLI
     (install once: choco install gh, then: gh auth login).
 
 .EXAMPLE
@@ -35,8 +35,9 @@ if (-not (Get-Command 'gh.exe' -ErrorAction SilentlyContinue)) {
 $zipName      = '{0}-{1}-win64.zip' -f $ZipBaseName, $Version
 $zipPath      = Join-Path $DistDir $zipName
 $manifestPath = Join-Path $DistDir 'manifest.json'
+$changelogPath = Join-Path $DistDir 'changelog.json'
 
-foreach ($f in @($zipPath, $manifestPath)) {
+foreach ($f in @($zipPath, $manifestPath, $changelogPath)) {
     if (-not (Test-Path -LiteralPath $f)) { throw "Missing file: $f (run pack-release.ps1 first)." }
 }
 
@@ -48,11 +49,16 @@ if (gh release view $tag -R $Repo 2>$null) {
 }
 
 Write-Host "Creating release $tag ..."
-if ($Notes) {
-    gh release create $tag $zipPath $manifestPath -R $Repo --title $tag --notes $Notes
+$releaseNotes = $Notes
+if (-not $releaseNotes) {
+    $manifestData = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
+    $releaseNotes = [string]$manifestData.notes
+}
+if ($releaseNotes) {
+    gh release create $tag $zipPath $manifestPath $changelogPath -R $Repo --title $tag --notes $releaseNotes
 }
 else {
-    gh release create $tag $zipPath $manifestPath -R $Repo --title $tag --generate-notes
+    gh release create $tag $zipPath $manifestPath $changelogPath -R $Repo --title $tag --generate-notes
 }
 if ($LASTEXITCODE -ne 0) { throw "gh release create failed with exit code $LASTEXITCODE." }
 
@@ -73,3 +79,4 @@ Write-Host "Published: https://github.com/$Repo/releases/tag/$tag"
 Write-Host "Stable download URLs for the launcher (always resolve to the newest release):"
 Write-Host "  https://github.com/$Repo/releases/latest/download/manifest.json"
 Write-Host "  https://github.com/$Repo/releases/latest/download/$zipName"
+Write-Host "  https://github.com/$Repo/releases/latest/download/changelog.json"

@@ -21,14 +21,19 @@ From this directory, run:
 
 The script rebuilds the ZIP, validates its entries, writes `dist/manifest.json`
 (including the archive SHA-256, size, version, and stable download URL), then
-creates GitHub Release `v1.2.3` with both files attached. Existing releases are
+builds `dist/changelog.json` from `changelog/*.json` and creates GitHub Release
+`v1.2.3` with all three files attached. Existing releases are
 not overwritten. To retain only the newest three releases, add
 `-PruneOld -Keep 3`.
+
+To attach changelog data to an already published release without replacing its
+game archive, run `.\publish-changelog.ps1 -Version 1.0.0`.
 
 The launcher can fetch the current stable files from:
 
 * `https://github.com/klon008/princess-survival/releases/latest/download/manifest.json`
 * `https://github.com/klon008/princess-survival/releases/latest/download/PrincessSurvival-<version>-win64.zip`
+* `https://github.com/klon008/princess-survival/releases/latest/download/changelog.json`
 
 For manual use, `pack-release.ps1` builds the files and `publish-release.ps1`
 publishes already built files. The combined entry point above is preferred for
