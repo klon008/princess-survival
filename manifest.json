@@ -1,12 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "channel": "stable",
-  "publishedAt": "2026-10-21T13:10:46.6207571Z",
-  "zip": "PrincessSurvival-1.0.1-win64.zip",
-  "sizeBytes": 50384125,
-  "sha256": "97f96cf159a17f6de11640ecd997c3330c2b5c054d47ee1f1b892b9599c7a710",
+  "publishedAt": "2026-10-21T13:35:28.2961231Z",
+  "zip": "PrincessSurvival-1.0.2-win64.zip",
+  "sizeBytes": 50388184,
+  "sha256": "9c65c2da325021fdc3cc5c76baa358e880a03f3fb6e7a6eef8db402d9117124b",
   "exe": "Princess Survival.exe",
+  "notes": "Изменение звука\n\nДобавлено\n• \n\nИзменено\n• Изменен звук волшебных стрел, так раздражающий всех.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.1/PrincessSurvival-1.0.1-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.2/PrincessSurvival-1.0.2-win64.zip"
 }
