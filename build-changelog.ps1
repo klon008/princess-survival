@@ -13,7 +13,7 @@ $entries = @()
 
 if (Test-Path -LiteralPath $sourceDirectory) {
     foreach ($file in Get-ChildItem -LiteralPath $sourceDirectory -Filter '*.json' -File) {
-        $entry = Get-Content -LiteralPath $file.FullName -Raw | ConvertFrom-Json
+        $entry = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8 | ConvertFrom-Json
         if (-not $entry.version -or -not $entry.date -or -not $entry.title) {
             throw "Changelog entry is missing version, date, or title: $($file.FullName)"
         }

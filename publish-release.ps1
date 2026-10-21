@@ -51,7 +51,7 @@ if (gh release view $tag -R $Repo 2>$null) {
 Write-Host "Creating release $tag ..."
 $releaseNotes = $Notes
 if (-not $releaseNotes) {
-    $manifestData = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
+    $manifestData = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
     $releaseNotes = [string]$manifestData.notes
 }
 if ($releaseNotes) {

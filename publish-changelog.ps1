@@ -30,7 +30,7 @@ Write-Host "Uploading changelog.json to $tag ..."
 gh release upload $tag $changelogPath -R $Repo --clobber
 if ($LASTEXITCODE -ne 0) { throw "gh release upload failed with exit code $LASTEXITCODE." }
 
-$entries = @(Get-Content -LiteralPath $changelogPath -Raw | ConvertFrom-Json)
+$entries = @(Get-Content -LiteralPath $changelogPath -Raw -Encoding UTF8 | ConvertFrom-Json)
 $entry = $entries | Where-Object { $_.version -eq $Version } | Select-Object -First 1
 if ($entry) {
     $noteLines = @($entry.title, '')

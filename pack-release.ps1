@@ -86,7 +86,7 @@ $sha256 = (Get-FileHash -LiteralPath $zipPath -Algorithm SHA256).Hash.ToLowerInv
 $size   = (Get-Item -LiteralPath $zipPath).Length
 
 & (Join-Path $PSScriptRoot 'build-changelog.ps1') -OutputPath $changelogPath
-$changelogEntries = @(Get-Content -LiteralPath $changelogPath -Raw | ConvertFrom-Json)
+$changelogEntries = @(Get-Content -LiteralPath $changelogPath -Raw -Encoding UTF8 | ConvertFrom-Json)
 $currentNotesEntry = $changelogEntries | Where-Object { $_.version -eq $Version } | Select-Object -First 1
 $manifestNotes = ''
 if ($currentNotesEntry) {
