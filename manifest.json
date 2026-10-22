@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "channel": "stable",
-  "publishedAt": "2026-10-22T12:32:16.0111210Z",
-  "zip": "PrincessSurvival-1.0.6-win64.zip",
-  "sizeBytes": 57468490,
-  "sha256": "7e709a73f395e5a68c2ac3e339a3168dcfbfc2dbece975ebc3aaea8aeb01a962",
+  "publishedAt": "2026-10-22T18:40:29.1448959Z",
+  "zip": "PrincessSurvival-1.0.7-win64.zip",
+  "sizeBytes": 57641675,
+  "sha256": "01ed9f9e0866462fcc2da2629f8d65e7695de8f61c87fb6827765836cf515eb8",
   "exe": "Princess Survival.exe",
-  "notes": "Новая геометрия уровня!\n\nДобавлено\n• Добавлен визуал для заднего фона и переднего фона.\n• Добавлено бесконечное путешествие по горизонтальному пространству уровня! Теперь у вас значительно больше пространства для маневра! Старайтесь не оставлять позади предметы и кристаллы - через время за несколько экранов за вами они в конце концов исчезнут.\n\nИзменено\n• Баланс всё еще активно тестируется.\n\nИсправлено\n• Сейчас блокирующих багов не найдено. Пожалуйста, cообщите мне о любых замеченных багах, если они вам встретятся.",
+  "notes": "Новый персонаж!\n\nДобавлено\n• Реализовал отображение редкости талантов для игроков.\n• Реализовал стартовый экран выбора персонажа и уровня.\n• Реализовал нового персонажа - Лучницу! Пока без иконок и без звуков.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.6/PrincessSurvival-1.0.6-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.7/PrincessSurvival-1.0.7-win64.zip"
 }
