@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "channel": "stable",
-  "publishedAt": "2026-10-23T16:04:00.4139740Z",
-  "zip": "PrincessSurvival-1.0.12-win64.zip",
-  "sizeBytes": 60287672,
-  "sha256": "944d963e5a407181678df0024c0c54ade9befbfb71a071f25f6d7ae755693155",
+  "publishedAt": "2026-10-23T18:46:34.0865836Z",
+  "zip": "PrincessSurvival-1.0.13-win64.zip",
+  "sizeBytes": 60908267,
+  "sha256": "db6163b956062bdfe9c89758ea387c7980308d5dd120188d1b8798cef8cce18b",
   "exe": "Princess Survival.exe",
-  "notes": "Очень сильный бафф принцессы\n\nИзменено\n• Переработан шок\n• Переработана хрупкость, которая теперь выпускает при убийстве 2 небольших снаряда льда. Больше не дает бесплатное пробитие\n• Переработан поджог. Добавлен талант 'Быстрое горение' - +50% больше урона, -20% длительность стака. +0.5 урон стака. длительность 2.5->2.0",
+  "notes": "Завершение разработки класса Друида!\n\nДобавлено\n• Наконец друид имеет полный набор способностей!\n\nИзменено\n• Были внесены небольшие правки в баланс, и поправлена документация.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.12/PrincessSurvival-1.0.12-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.13/PrincessSurvival-1.0.13-win64.zip"
 }
