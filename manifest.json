@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "channel": "stable",
-  "publishedAt": "2026-10-22T18:40:29.1448959Z",
-  "zip": "PrincessSurvival-1.0.7-win64.zip",
-  "sizeBytes": 57641675,
-  "sha256": "01ed9f9e0866462fcc2da2629f8d65e7695de8f61c87fb6827765836cf515eb8",
+  "publishedAt": "2026-10-23T01:43:04.3807841Z",
+  "zip": "PrincessSurvival-1.0.9-win64.zip",
+  "sizeBytes": 57702696,
+  "sha256": "6dd5261b91a1e46d396191bfc33edcff9eeb9f3256d06428c52075213cc7a223",
   "exe": "Princess Survival.exe",
-  "notes": "Новый персонаж!\n\nДобавлено\n• Реализовал отображение редкости талантов для игроков.\n• Реализовал стартовый экран выбора персонажа и уровня.\n• Реализовал нового персонажа - Лучницу! Пока без иконок и без звуков.",
+  "notes": "Фикс бага обновления\n\nИсправлено\n• Здесь не на что смотреть >_>",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.7/PrincessSurvival-1.0.7-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.9/PrincessSurvival-1.0.9-win64.zip"
 }
