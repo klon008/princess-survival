@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "channel": "stable",
-  "publishedAt": "2026-10-23T01:43:04.3807841Z",
-  "zip": "PrincessSurvival-1.0.9-win64.zip",
-  "sizeBytes": 57702696,
-  "sha256": "6dd5261b91a1e46d396191bfc33edcff9eeb9f3256d06428c52075213cc7a223",
+  "publishedAt": "2026-10-23T10:43:52.5641171Z",
+  "zip": "PrincessSurvival-1.0.10-win64.zip",
+  "sizeBytes": 60265912,
+  "sha256": "04af19365ac8a4f3fbffefffd3b4096e15ce1f66412b59233ad361f10970e9d1",
   "exe": "Princess Survival.exe",
-  "notes": "Фикс бага обновления\n\nИсправлено\n• Здесь не на что смотреть >_>",
+  "notes": "Добавлен Друид!\n\nДобавлено\n• Добавлен Друид! Новый класс! Хотя и не обладает еще полным набором умений, но уже представляет из себя очень сильного героя!\n\nИзменено\n• Переработан баланс Редкости Талантов получаемых с уровнем.\n• Немного переработаны мелкие цифры разных способностей.\n• Веерный Выстрел Лучницы имеет штраф 80% при выстреле в одну цель, чтобы избегать ситуации Шотгана.\n• Добавлен Талант для усиления Тени, который позволяет удерживать одновременно более 1 Тени в игре.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.9/PrincessSurvival-1.0.9-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.10/PrincessSurvival-1.0.10-win64.zip"
 }
