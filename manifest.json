@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "channel": "stable",
-  "publishedAt": "2026-10-25T09:47:57.2793159Z",
-  "zip": "PrincessSurvival-1.0.16-win64.zip",
-  "sizeBytes": 89168160,
-  "sha256": "b31559dd3907216fe73d533c69ed6ddc10b32c7413df9c2e4ded8c09d98d9cf7",
+  "publishedAt": "2026-10-25T23:01:30.7183048Z",
+  "zip": "PrincessSurvival-1.0.17-win64.zip",
+  "sizeBytes": 111437420,
+  "sha256": "b1236ee9bdaa21e02b965668740c9de791f7d5c50c096344db0f8dd4acf26d23",
   "exe": "Princess Survival.exe",
-  "notes": "Небольшие доработки\n\nДобавлено\n• немного VFX метеору\n• Добавил ачивку\n\nИзменено\n• Переработал таланты лучницы. Сделал значительно сильней.\n• Реворк Клевера.",
+  "notes": "Добавлен уровень 2\n\nДобавлено\n• Добавлен сад уснувших колоколов",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.16/PrincessSurvival-1.0.16-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.17/PrincessSurvival-1.0.17-win64.zip"
 }
