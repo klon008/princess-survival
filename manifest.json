@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "channel": "stable",
-  "publishedAt": "2026-10-25T06:10:16.3833217Z",
-  "zip": "PrincessSurvival-1.0.15-win64.zip",
-  "sizeBytes": 82505591,
-  "sha256": "74ad9bd0c0efea73047a609eb26362c037fd61b39ab2dc9bc58b27cc586940b5",
+  "publishedAt": "2026-10-25T09:47:57.2793159Z",
+  "zip": "PrincessSurvival-1.0.16-win64.zip",
+  "sizeBytes": 89168160,
+  "sha256": "b31559dd3907216fe73d533c69ed6ddc10b32c7413df9c2e4ded8c09d98d9cf7",
   "exe": "Princess Survival.exe",
-  "notes": "Ребаланс. Новый вид монстров.\n\nДобавлено\n• Добавлена страница достижений.\n• Добавлена ачивка за прохождение игры за 30 минут.\n\nИзменено\n• Проведена значительная переработка «Пламенной ауры».\n• Элитные монстры стали значительно сильнее.\n• Проведён небольшой ребаланс босса.\n\nИсправлено\n• Исправлена проблема с масштабированием друида во времени (скалирование способностей/урона). Пока не окончательно.\n• Исправлен баг максимальный радиус «Огненной ауры» на последнем уровне составлял прирост 6 поинтов 594–600. Перераспределен бонус за уровень.",
+  "notes": "Небольшие доработки\n\nДобавлено\n• немного VFX метеору\n• Добавил ачивку\n\nИзменено\n• Переработал таланты лучницы. Сделал значительно сильней.\n• Реворк Клевера.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.15/PrincessSurvival-1.0.15-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.16/PrincessSurvival-1.0.16-win64.zip"
 }
