@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "channel": "stable",
-  "publishedAt": "2026-10-25T23:01:30.7183048Z",
-  "zip": "PrincessSurvival-1.0.17-win64.zip",
-  "sizeBytes": 111437420,
-  "sha256": "b1236ee9bdaa21e02b965668740c9de791f7d5c50c096344db0f8dd4acf26d23",
+  "publishedAt": "2026-10-26T14:13:15.1414832Z",
+  "zip": "PrincessSurvival-1.0.18-win64.zip",
+  "sizeBytes": 142400907,
+  "sha256": "ca224f9fa122d29be0aa2b4149bc94805fb192df1031411a6626b4ab8f687b0f",
   "exe": "Princess Survival.exe",
-  "notes": "Добавлен уровень 2\n\nДобавлено\n• Добавлен сад уснувших колоколов",
+  "notes": "Большая переработка второго босса.\n\nДобавлено\n• Больше визуала, импакта и прочего. Всё чтобы вашему взгляду было приятно\n\nИзменено\n• Повысил хп боссов до 450\n\nИсправлено\n• Небольшие микро-правки баланса. Изменил механику 4-листника. он теперь сбрасывает на 90% Перезарядку следующего скилла, вместо огромного множителя прямого урона",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.17/PrincessSurvival-1.0.17-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.18/PrincessSurvival-1.0.18-win64.zip"
 }
