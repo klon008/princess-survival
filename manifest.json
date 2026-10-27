@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.20",
+  "version": "1.0.22",
   "channel": "stable",
-  "publishedAt": "2026-10-27T00:08:02.1879238Z",
-  "zip": "PrincessSurvival-1.0.20-win64.zip",
-  "sizeBytes": 149566831,
-  "sha256": "47961813799ebc69a03f0cb3f214329b7550799f8a2a9e86d4a09830277a44ce",
+  "publishedAt": "2026-10-27T11:21:58.9058871Z",
+  "zip": "PrincessSurvival-1.0.22-win64.zip",
+  "sizeBytes": 155056134,
+  "sha256": "001a9d3b05065a6387e8f8d79d19e8b6f52d59bc723fdc2644a699d757c358ec",
   "exe": "Princess Survival.exe",
-  "notes": "Добавлен Чумной доктор\n\nИзменено\n• Больше не выпадает 3 общих таланта. Как минмум один специальный для героя.",
+  "notes": "Добавлена Госпожа ночи",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.20/PrincessSurvival-1.0.20-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.22/PrincessSurvival-1.0.22-win64.zip"
 }
