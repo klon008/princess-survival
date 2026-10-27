@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "channel": "stable",
-  "publishedAt": "2026-10-27T11:21:58.9058871Z",
-  "zip": "PrincessSurvival-1.0.22-win64.zip",
-  "sizeBytes": 155056134,
-  "sha256": "001a9d3b05065a6387e8f8d79d19e8b6f52d59bc723fdc2644a699d757c358ec",
+  "publishedAt": "2026-10-27T13:55:59.6296505Z",
+  "zip": "PrincessSurvival-1.0.23-win64.zip",
+  "sizeBytes": 155059527,
+  "sha256": "d202dc167812858bccaef35520637606578077f533d359920af59dc87329a213",
   "exe": "Princess Survival.exe",
-  "notes": "Добавлена Госпожа ночи",
+  "notes": "Сильнейший аптюн Чумного Доктора\n\nИзменено\n• Изменены вороны, они теперь наносят АОЕ урон\n• Изменен Слайм, он теперь разливает жидкость и имеет малое КД",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.22/PrincessSurvival-1.0.22-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.23/PrincessSurvival-1.0.23-win64.zip"
 }
