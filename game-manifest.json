@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "channel": "stable",
-  "publishedAt": "2026-10-28T10:41:29.8883537Z",
-  "zip": "PrincessSurvival-1.0.25-win64.zip",
-  "sizeBytes": 155149740,
-  "sha256": "e0a9d1227e5efe0902b1407b2c2c4535a4b11f36740b864d489fa96de340bfea",
+  "publishedAt": "2026-10-28T11:20:01.4152606Z",
+  "zip": "PrincessSurvival-1.0.26-win64.zip",
+  "sizeBytes": 156842870,
+  "sha256": "775b0b207e92a5b9e2afbd45d52740458372b61c34ba173de44abe2a6ad60caa",
   "exe": "Princess Survival.exe",
-  "notes": "Создано Лобби, наработки сетевого режима. Пока без возможности запустить сетевую игру.",
+  "notes": "Расширенная версия Сетевой комнаты",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.25/PrincessSurvival-1.0.25-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.26/PrincessSurvival-1.0.26-win64.zip"
 }
