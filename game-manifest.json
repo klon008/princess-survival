@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "channel": "stable",
-  "publishedAt": "2026-10-27T16:15:43.4250962Z",
-  "zip": "PrincessSurvival-1.0.24-win64.zip",
-  "sizeBytes": 155078459,
-  "sha256": "a6b61a8087f98d09c9d6c7ad081f49532c9cb14f5980a766da7234e061926118",
+  "publishedAt": "2026-10-28T10:41:29.8883537Z",
+  "zip": "PrincessSurvival-1.0.25-win64.zip",
+  "sizeBytes": 155149740,
+  "sha256": "e0a9d1227e5efe0902b1407b2c2c4535a4b11f36740b864d489fa96de340bfea",
   "exe": "Princess Survival.exe",
-  "notes": "Ребаланс\n\nИзменено\n• Ребаланс Багрового меча\n• Ребаланс Гроба с цепями\n• Ребаланс Кровавой розы\n• Ребаланс Кровавого щита\n• Ребаланс кровавого тумана\n• Ребаланс Жажды крови\n• Град теперь старается фокусироваться на элитных врагах , если нет боссов",
+  "notes": "Создано Лобби, наработки сетевого режима. Пока без возможности запустить сетевую игру.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.24/PrincessSurvival-1.0.24-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.25/PrincessSurvival-1.0.25-win64.zip"
 }
