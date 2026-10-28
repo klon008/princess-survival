@@ -1,0 +1,13 @@
+{
+  "game": "Princess Survival",
+  "version": "1.0.24",
+  "channel": "stable",
+  "publishedAt": "2026-10-27T16:15:43.4250962Z",
+  "zip": "PrincessSurvival-1.0.24-win64.zip",
+  "sizeBytes": 155078459,
+  "sha256": "a6b61a8087f98d09c9d6c7ad081f49532c9cb14f5980a766da7234e061926118",
+  "exe": "Princess Survival.exe",
+  "notes": "Ребаланс\n\nИзменено\n• Ребаланс Багрового меча\n• Ребаланс Гроба с цепями\n• Ребаланс Кровавой розы\n• Ребаланс Кровавого щита\n• Ребаланс кровавого тумана\n• Ребаланс Жажды крови\n• Град теперь старается фокусироваться на элитных врагах , если нет боссов",
+  "repo": "klon008/princess-survival",
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.24/PrincessSurvival-1.0.24-win64.zip"
+}
