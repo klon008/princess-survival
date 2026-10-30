@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "channel": "stable",
-  "publishedAt": "2026-10-30T13:02:28.3944963Z",
-  "zip": "PrincessSurvival-1.0.29-win64.zip",
-  "sizeBytes": 188153458,
-  "sha256": "759928d55e042654272a3be64ca87370099cd97dfc5b9e0672437ad2e091b72e",
+  "publishedAt": "2026-10-30T20:12:20.2712662Z",
+  "zip": "PrincessSurvival-1.0.30-win64.zip",
+  "sizeBytes": 190475754,
+  "sha256": "d27533923e7179e38f162fc2d20932c8504d3d401c3017f422cce60dd61b322b",
   "exe": "Princess Survival.exe",
-  "notes": "Ребаланс босса, Отрисовал Анимации спеллов, убрал мешающие телеграфы.",
+  "notes": "Реворк баланса сетевой игры",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.29/PrincessSurvival-1.0.29-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.30/PrincessSurvival-1.0.30-win64.zip"
 }
