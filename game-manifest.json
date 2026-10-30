@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "channel": "stable",
-  "publishedAt": "2026-10-29T20:19:20.5019830Z",
-  "zip": "PrincessSurvival-1.0.27-win64.zip",
-  "sizeBytes": 185121565,
-  "sha256": "e931ac46a24ce4da8f15f2a247055baf6ebb9ded2dd8deacfc520fd10e62b49d",
+  "publishedAt": "2026-10-30T00:13:53.8774524Z",
+  "zip": "PrincessSurvival-1.0.28-win64.zip",
+  "sizeBytes": 185144834,
+  "sha256": "ae26df39edb4d6532cb0afac78f25c04b565ad6ea8bf56142e59cd123b0527fc",
   "exe": "Princess Survival.exe",
-  "notes": "Большой патч с сетевым режимом\n\nДобавлено\n• Наработки 3 уровня\n\nИзменено\n• Ребаланс большинства способностей",
+  "notes": "boss in level 3",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.27/PrincessSurvival-1.0.27-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.28/PrincessSurvival-1.0.28-win64.zip"
 }
