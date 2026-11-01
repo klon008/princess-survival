@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "channel": "stable",
-  "publishedAt": "2026-10-30T20:12:20.2712662Z",
-  "zip": "PrincessSurvival-1.0.30-win64.zip",
-  "sizeBytes": 190475754,
-  "sha256": "d27533923e7179e38f162fc2d20932c8504d3d401c3017f422cce60dd61b322b",
+  "publishedAt": "2026-11-01T18:45:03.0831834Z",
+  "zip": "PrincessSurvival-1.0.31-win64.zip",
+  "sizeBytes": 311380536,
+  "sha256": "5e81326a713cb71c441884607fee3ebea4d06c529138d4cb151bc4bcadae9870",
   "exe": "Princess Survival.exe",
-  "notes": "Реворк баланса сетевой игры",
+  "notes": "Новая арена - Цирк!\n\nДобавлено\n• Новая арена.\n• Новый босс.\n• Новые враги.\n• Новые звуки.\n\nИзменено\n• Произвёл некоторый мелкий ребаланс Принцесссы.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.30/PrincessSurvival-1.0.30-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.31/PrincessSurvival-1.0.31-win64.zip"
 }
