@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "channel": "stable",
-  "publishedAt": "2026-11-02T17:46:53.0323779Z",
-  "zip": "PrincessSurvival-1.0.33-win64.zip",
-  "sizeBytes": 315324730,
-  "sha256": "1d5de6f918cae943643f300dad71dc0b6782c24903cc1e259ffe62dcb204beee",
+  "publishedAt": "2026-11-02T18:52:18.6055565Z",
+  "zip": "PrincessSurvival-1.0.34-win64.zip",
+  "sizeBytes": 319636707,
+  "sha256": "6d883ab5c6c5e6796772684a863f3f689626fc7963dbab43c29a893d64017972",
   "exe": "Princess Survival.exe",
-  "notes": "Добавлен новый персонаж: Selwia\n\nДобавлено\n• Добавлены новые ачивки.\n• \\",
+  "notes": "версия клиента 0.2.21",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.33/PrincessSurvival-1.0.33-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.34/PrincessSurvival-1.0.34-win64.zip"
 }
