@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "channel": "stable",
-  "publishedAt": "2026-11-02T22:53:21.3305659Z",
-  "zip": "PrincessSurvival-1.0.35-win64.zip",
-  "sizeBytes": 319680237,
-  "sha256": "f04657756853f0b5d6dfc3d7d8e451fbd64890c92c8cbe8e2170128e12ff0aa4",
+  "publishedAt": "2026-11-03T16:08:52.3683969Z",
+  "zip": "PrincessSurvival-1.0.36-win64.zip",
+  "sizeBytes": 319765395,
+  "sha256": "466422f6f1828edb5dc9ab9c59122a434ff2cea2e396c2ecb242dd01f1a35145",
   "exe": "Princess Survival.exe",
-  "notes": "Реворк сетевого кода\n\nИзменено\n• Тюнинг слабых способностей Дриады",
+  "notes": "Переработка сетевого режима.\n\nИзменено\n• Ретюн Императрицы звезд",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.35/PrincessSurvival-1.0.35-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.36/PrincessSurvival-1.0.36-win64.zip"
 }
