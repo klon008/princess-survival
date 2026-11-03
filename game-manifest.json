@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "channel": "stable",
-  "publishedAt": "2026-11-03T16:08:52.3683969Z",
-  "zip": "PrincessSurvival-1.0.36-win64.zip",
-  "sizeBytes": 319765395,
-  "sha256": "466422f6f1828edb5dc9ab9c59122a434ff2cea2e396c2ecb242dd01f1a35145",
+  "publishedAt": "2026-11-03T23:13:25.9584600Z",
+  "zip": "PrincessSurvival-1.0.37-win64.zip",
+  "sizeBytes": 320483556,
+  "sha256": "39df12af14dd666f9e9709e0cf2535e09ecfc33719e3e33794fbb34a79530dc3",
   "exe": "Princess Survival.exe",
-  "notes": "Переработка сетевого режима.\n\nИзменено\n• Ретюн Императрицы звезд",
+  "notes": "Изменения в сетевом коде",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.36/PrincessSurvival-1.0.36-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.37/PrincessSurvival-1.0.37-win64.zip"
 }
