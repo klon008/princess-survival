@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.37",
+  "version": "1.0.38",
   "channel": "stable",
-  "publishedAt": "2026-11-03T23:13:25.9584600Z",
-  "zip": "PrincessSurvival-1.0.37-win64.zip",
-  "sizeBytes": 320483556,
-  "sha256": "39df12af14dd666f9e9709e0cf2535e09ecfc33719e3e33794fbb34a79530dc3",
+  "publishedAt": "2026-11-04T02:50:46.3186563Z",
+  "zip": "PrincessSurvival-1.0.38-win64.zip",
+  "sizeBytes": 327124106,
+  "sha256": "0c13f50746f3176b6500da55aa66a7f564460044559f3a6cc2224ca24006be47",
   "exe": "Princess Survival.exe",
-  "notes": "Изменения в сетевом коде",
+  "notes": "Добавлена Арлекина",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.37/PrincessSurvival-1.0.37-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.38/PrincessSurvival-1.0.38-win64.zip"
 }
