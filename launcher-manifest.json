@@ -1,8 +1,8 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "exe": "PrincessLauncher.exe",
   "startupConfirmationProtocol": 1,
-  "sizeBytes": 76967732,
-  "sha256": "23a523a7f599207c5330eddac597204872954395d77aadd0281fb761d8cfa3c1",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/launcher-v1.0.14/PrincessLauncher.exe"
+  "sizeBytes": 76979588,
+  "sha256": "76bf1cfa64afae294e3646c2195b1c2820f8925a36d898ee6d38eb432ba0dc18",
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/launcher-v1.0.15/PrincessLauncher.exe"
 }
