@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "channel": "stable",
-  "publishedAt": "2026-11-04T02:50:46.3186563Z",
-  "zip": "PrincessSurvival-1.0.38-win64.zip",
-  "sizeBytes": 327124106,
-  "sha256": "0c13f50746f3176b6500da55aa66a7f564460044559f3a6cc2224ca24006be47",
+  "publishedAt": "2026-11-04T15:50:55.6835154Z",
+  "zip": "PrincessSurvival-1.0.39-win64.zip",
+  "sizeBytes": 332879728,
+  "sha256": "5ce8526bac7ec4fbc34017bdd2db166d45794d4f37aeeb3aa4baf9093841fe52",
   "exe": "Princess Survival.exe",
-  "notes": "Добавлена Арлекина",
+  "notes": "Добавил в сетевую игру новых персонажей. Тест Голема на некроманте (пока неиграбельно, но голем есть для тестов)",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.38/PrincessSurvival-1.0.38-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.39/PrincessSurvival-1.0.39-win64.zip"
 }
