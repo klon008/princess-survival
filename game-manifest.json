@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.39",
+  "version": "1.0.40",
   "channel": "stable",
-  "publishedAt": "2026-11-04T15:50:55.6835154Z",
-  "zip": "PrincessSurvival-1.0.39-win64.zip",
-  "sizeBytes": 332879728,
-  "sha256": "5ce8526bac7ec4fbc34017bdd2db166d45794d4f37aeeb3aa4baf9093841fe52",
+  "publishedAt": "2026-11-05T23:10:20.1894710Z",
+  "zip": "PrincessSurvival-1.0.40-win64.zip",
+  "sizeBytes": 348329685,
+  "sha256": "bc1f27215c526c4668a574a7a7ab9723ded0122a839c66b6af8f381e17f7083b",
   "exe": "Princess Survival.exe",
-  "notes": "Добавил в сетевую игру новых персонажей. Тест Голема на некроманте (пока неиграбельно, но голем есть для тестов)",
+  "notes": "Доработки Некроманта",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.39/PrincessSurvival-1.0.39-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.40/PrincessSurvival-1.0.40-win64.zip"
 }
