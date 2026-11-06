@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "channel": "stable",
-  "publishedAt": "2026-11-05T23:10:20.1894710Z",
-  "zip": "PrincessSurvival-1.0.40-win64.zip",
-  "sizeBytes": 348329685,
-  "sha256": "bc1f27215c526c4668a574a7a7ab9723ded0122a839c66b6af8f381e17f7083b",
+  "publishedAt": "2026-11-06T10:12:57.8088392Z",
+  "zip": "PrincessSurvival-1.0.41-win64.zip",
+  "sizeBytes": 348391170,
+  "sha256": "15af5c3a992e5ae98146068517e5d369be50860428530ee372d7e39262fb0798",
   "exe": "Princess Survival.exe",
-  "notes": "Доработки Некроманта",
+  "notes": "Доравботал иконки Некроманту\n\nИзменено\n• Немного изменил вихрь некроманта\n• Немного изменил прыжок голема, добавив таланты",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.40/PrincessSurvival-1.0.40-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.41/PrincessSurvival-1.0.41-win64.zip"
 }
