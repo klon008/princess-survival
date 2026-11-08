@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "channel": "stable",
-  "publishedAt": "2026-11-07T01:28:07.9782676Z",
-  "zip": "PrincessSurvival-1.0.42-win64.zip",
-  "sizeBytes": 349285852,
-  "sha256": "30402a857a031ff595741543e09d7c6c7e791ec85d972db87c52a5a865df07a6",
+  "publishedAt": "2026-11-08T02:41:50.6868451Z",
+  "zip": "PrincessSurvival-1.0.43-win64.zip",
+  "sizeBytes": 349296088,
+  "sha256": "701d72fd6427a68f6fae19cad964c518da9fb917a08515a5a2b706b60cda191d",
   "exe": "Princess Survival.exe",
-  "notes": "Реворк лучницы",
+  "notes": "Баланс. GUI\n\nДобавлено\n• двойной урон более не перемножается с крит. уроном\n• На этапе подготовке добавлен интерфейс предпросмотра талантов",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.42/PrincessSurvival-1.0.42-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.43/PrincessSurvival-1.0.43-win64.zip"
 }
