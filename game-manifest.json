@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "channel": "stable",
-  "publishedAt": "2026-11-08T02:41:50.6868451Z",
-  "zip": "PrincessSurvival-1.0.43-win64.zip",
-  "sizeBytes": 349296088,
-  "sha256": "701d72fd6427a68f6fae19cad964c518da9fb917a08515a5a2b706b60cda191d",
+  "publishedAt": "2026-11-09T01:32:25.5665079Z",
+  "zip": "PrincessSurvival-1.0.44-win64.zip",
+  "sizeBytes": 350130379,
+  "sha256": "0ce86e0c8021cfd2fa576dd0e6911045b6b37a2af29a52487986aff6c41d8724",
   "exe": "Princess Survival.exe",
-  "notes": "Баланс. GUI\n\nДобавлено\n• двойной урон более не перемножается с крит. уроном\n• На этапе подготовке добавлен интерфейс предпросмотра талантов",
+  "notes": "Фиксы баланса. Добавлен босс на 5 карту.\n\nДобавлено\n• Новый босс. Пока без анимаций.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.43/PrincessSurvival-1.0.43-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.44/PrincessSurvival-1.0.44-win64.zip"
 }
