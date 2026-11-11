@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "channel": "stable",
-  "publishedAt": "2026-11-09T18:06:35.3931300Z",
-  "zip": "PrincessSurvival-1.0.46-win64.zip",
-  "sizeBytes": 350174493,
-  "sha256": "8668726413d76401fa6c774d399c1d23bc0e5af7b55ba79c87be353cbc112535",
+  "publishedAt": "2026-11-11T04:20:12.4565007Z",
+  "zip": "PrincessSurvival-1.0.47-win64.zip",
+  "sizeBytes": 353842880,
+  "sha256": "f79854f62b61137a7da798b68bb86a2445d84b77b42f42c2ababe0f4170ac933",
   "exe": "Princess Survival.exe",
-  "notes": "Добавлены гадальные карты",
+  "notes": "Переработка гадальных карт, большие правки. Улучшеие VFX. Добавление Анимаций боссу 5.\n\nДобавлено\n• Императрица звезд. Поправлен VFX Суперновы.\n• 600 здоровья теперь нужно для ачивки вампира.\n• Переработал Гадальные карты.\n• Добавил магазин.\n• Добавил новые зелья.\n• Новый скин Волшебницы - emerald.\n• Добавлены новые наборы зелий.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.46/PrincessSurvival-1.0.46-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.47/PrincessSurvival-1.0.47-win64.zip"
 }
