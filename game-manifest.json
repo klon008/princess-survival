@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.49",
+  "version": "1.0.50",
   "channel": "stable",
-  "publishedAt": "2026-11-12T06:57:50.3714486Z",
-  "zip": "PrincessSurvival-1.0.49-win64.zip",
-  "sizeBytes": 388531885,
-  "sha256": "7492e36a08e8314a9b80c6912bbe451caa4c7d17fcc14a05fb4884f7b05a0ea3",
+  "publishedAt": "2026-11-13T02:48:46.8748724Z",
+  "zip": "PrincessSurvival-1.0.50-win64.zip",
+  "sizeBytes": 395185157,
+  "sha256": "95c24f6139eb3194abca6554e0c7c927067635cfda7eb0bb45d2f56ee61770ac",
   "exe": "Princess Survival.exe",
-  "notes": "Новый босс\n\nДобавлено\n• Новый скин Чумного доктора.\n• Добавлены новые наборы зелий.\n• Императрица звезд. Проработаны SFX.\n• Проработан шестой босс.\n• Исправлена ошибка Дриады позволяющая вызывать бесконечное количество Клеверов и Четырехлистников.",
+  "notes": "Большая доработка сетевого кода.\n\nДобавлено\n• Добавлены ВСЕ уровни в сетевую игру\n• Восстановлен HUD в сетевой игре",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.49/PrincessSurvival-1.0.49-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.50/PrincessSurvival-1.0.50-win64.zip"
 }
