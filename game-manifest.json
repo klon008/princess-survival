@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "channel": "stable",
-  "publishedAt": "2026-11-13T02:48:46.8748724Z",
-  "zip": "PrincessSurvival-1.0.50-win64.zip",
-  "sizeBytes": 395185157,
-  "sha256": "95c24f6139eb3194abca6554e0c7c927067635cfda7eb0bb45d2f56ee61770ac",
+  "publishedAt": "2026-11-13T15:39:35.8301949Z",
+  "zip": "PrincessSurvival-1.0.51-win64.zip",
+  "sizeBytes": 395199204,
+  "sha256": "60172f25951b098526271bd85236070cc3ac1384251f17eedd199518343deeeb",
   "exe": "Princess Survival.exe",
-  "notes": "Большая доработка сетевого кода.\n\nДобавлено\n• Добавлены ВСЕ уровни в сетевую игру\n• Восстановлен HUD в сетевой игре",
+  "notes": "Хот-фикс утечки памяти у Чумного Доктора.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.50/PrincessSurvival-1.0.50-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.51/PrincessSurvival-1.0.51-win64.zip"
 }
