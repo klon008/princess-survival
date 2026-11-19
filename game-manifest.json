@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.55",
+  "version": "1.0.56",
   "channel": "stable",
-  "publishedAt": "2026-11-19T11:04:35.7943520Z",
-  "zip": "PrincessSurvival-1.0.55-win64.zip",
+  "publishedAt": "2026-11-19T11:25:22.5727121Z",
+  "zip": "PrincessSurvival-1.0.56-win64.zip",
   "sizeBytes": 401565441,
   "sha256": "2c17cd303f6bcf9a405da568df7c601e501aba1ead26f2f9294e49ab0ebbb4bc",
   "exe": "Princess Survival.exe",
-  "notes": "Микро фиксы UI",
+  "notes": "ui fix",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.55/PrincessSurvival-1.0.55-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.56/PrincessSurvival-1.0.56-win64.zip"
 }
