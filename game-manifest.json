@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.53",
+  "version": "1.0.55",
   "channel": "stable",
-  "publishedAt": "2026-11-19T10:26:15.8990070Z",
-  "zip": "PrincessSurvival-1.0.53-win64.zip",
-  "sizeBytes": 401562999,
-  "sha256": "9067aafc32cc48e147bdb621ab07906ce37ef62a766e30180b9998b7224d67f3",
+  "publishedAt": "2026-11-19T11:04:35.7943520Z",
+  "zip": "PrincessSurvival-1.0.55-win64.zip",
+  "sizeBytes": 401565441,
+  "sha256": "2c17cd303f6bcf9a405da568df7c601e501aba1ead26f2f9294e49ab0ebbb4bc",
   "exe": "Princess Survival.exe",
-  "notes": "Реворк UI. Небольшой ребаланс",
+  "notes": "Микро фиксы UI",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.53/PrincessSurvival-1.0.53-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.55/PrincessSurvival-1.0.55-win64.zip"
 }
