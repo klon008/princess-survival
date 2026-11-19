@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.52",
+  "version": "1.0.53",
   "channel": "stable",
-  "publishedAt": "2026-11-18T14:54:55.6407594Z",
-  "zip": "PrincessSurvival-1.0.52-win64.zip",
-  "sizeBytes": 397298166,
-  "sha256": "7b272974993e6d122bea1974ed37bffaebc1e491d57d0ed5edd9603eb2d5ee03",
+  "publishedAt": "2026-11-19T10:26:15.8990070Z",
+  "zip": "PrincessSurvival-1.0.53-win64.zip",
+  "sizeBytes": 401562999,
+  "sha256": "9067aafc32cc48e147bdb621ab07906ce37ef62a766e30180b9998b7224d67f3",
   "exe": "Princess Survival.exe",
-  "notes": "Огромная доработка предметов. Небольшие правки баланса\n\nДобавлено\n• Система носимых предметов.\n\nИзменено\n• Чумной доктор: вороны теперь подбирают опыт и золото.\n• Арлекина: подарки можно пинать во врагов. Ножи «Жонглирования» получили 9999 пробиваний и прокачиваемую дальность.\n• Вампир: «Кровавый туман» доступен на старте. У «Алой розы» убраны «Чёрные шипы», радиус «Цветника» растёт до 440 px.\n• Лучница: перезарядка «Беглого огня» — 1,5 с. У «Пробивающего выстрела» теперь световая дуга, полоса попадания 144 px, 5 базового урона и перезарядка 2,2 с.",
+  "notes": "Реворк UI. Небольшой ребаланс",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.52/PrincessSurvival-1.0.52-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.53/PrincessSurvival-1.0.53-win64.zip"
 }
