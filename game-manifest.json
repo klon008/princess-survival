@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.57",
+  "version": "1.0.58",
   "channel": "stable",
-  "publishedAt": "2026-11-19T16:01:42.9541988Z",
-  "zip": "PrincessSurvival-1.0.57-win64.zip",
-  "sizeBytes": 401725444,
-  "sha256": "351a2deff2bbd928835f68fd00ed9380a75043352a2fcdb5efa726775aa64c12",
+  "publishedAt": "2026-11-20T09:16:15.5451895Z",
+  "zip": "PrincessSurvival-1.0.58-win64.zip",
+  "sizeBytes": 418727400,
+  "sha256": "38235163f11b6c6cdccba68c7833c43dbeecbd4f926303a6fd2fab91e8746a7f",
   "exe": "Princess Survival.exe",
-  "notes": "Оптимизация производительности при игре на Госпоже ночи.\n\nИзменено\n• Небольшие оптимизации UI",
+  "notes": "Дизайн Окна Аукциона\n\nДобавлено\n• Создано окружение для 7ого уровня, которое будет использовано для Еженедельного Сетевого События.\n• Создан и проработан предварительный интерфейс для торговли между игроками",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.57/PrincessSurvival-1.0.57-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.58/PrincessSurvival-1.0.58-win64.zip"
 }
