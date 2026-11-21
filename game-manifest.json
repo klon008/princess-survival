@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.60",
+  "version": "1.0.61",
   "channel": "stable",
-  "publishedAt": "2026-11-21T19:06:28.7808777Z",
-  "zip": "PrincessSurvival-1.0.60-win64.zip",
-  "sizeBytes": 414988363,
-  "sha256": "4c81d4c6a5aa8708dfd1aacfeb72bb4569c84694e5911b318ecdb282a9f3462f",
+  "publishedAt": "2026-11-21T22:58:55.7523598Z",
+  "zip": "PrincessSurvival-1.0.61-win64.zip",
+  "sizeBytes": 417087267,
+  "sha256": "361d5ff73c154cabdbb9c4fdf349652cbe534dce3062040e654f114ef3bc0a28",
   "exe": "Princess Survival.exe",
-  "notes": "Новая карта Таро\n\nИзменено\n• Добавлена Новая карта Таро: Сфера Тьмы.\n• Добавлен новый Уникальный предмет: Корона Пепельной Валькирии.\n• Проведен ребаланс Волшебницы.",
+  "notes": "Хотфикс",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.60/PrincessSurvival-1.0.60-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.61/PrincessSurvival-1.0.61-win64.zip"
 }
