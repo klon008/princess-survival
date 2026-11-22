@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.61",
+  "version": "1.0.62",
   "channel": "stable",
-  "publishedAt": "2026-11-21T22:58:55.7523598Z",
-  "zip": "PrincessSurvival-1.0.61-win64.zip",
-  "sizeBytes": 417087267,
-  "sha256": "361d5ff73c154cabdbb9c4fdf349652cbe534dce3062040e654f114ef3bc0a28",
+  "publishedAt": "2026-11-22T07:30:09.8376030Z",
+  "zip": "PrincessSurvival-1.0.62-win64.zip",
+  "sizeBytes": 418236248,
+  "sha256": "c69f721149a97d0c239df9eb78d7819a41cbfc4d92e8c900080e4ca611aba1dd",
   "exe": "Princess Survival.exe",
-  "notes": "Хотфикс",
+  "notes": "Новые Таро\n\nИзменено\n• 2 Новые Таро.\n• Небольшие фиксы GUI.\n• Перерисовал Старые Арты Таро",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.61/PrincessSurvival-1.0.61-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.62/PrincessSurvival-1.0.62-win64.zip"
 }
