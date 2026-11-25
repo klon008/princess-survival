@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.65",
+  "version": "1.0.66",
   "channel": "stable",
-  "publishedAt": "2026-11-25T00:02:37.1634179Z",
-  "zip": "PrincessSurvival-1.0.65-win64.zip",
-  "sizeBytes": 446521417,
-  "sha256": "30728ab1524b7b02737530d8b45b7e466706f946bf961e90f50bb69ffc6c17e6",
+  "publishedAt": "2026-11-25T15:27:15.5174641Z",
+  "zip": "PrincessSurvival-1.0.66-win64.zip",
+  "sizeBytes": 450408824,
+  "sha256": "793c2c45b5d396b28e2c9becd7d0d63cff75b878af45ce87832b881be077d905",
   "exe": "Princess Survival.exe",
-  "notes": "Добавл больше Таро\n\nИзменено\n• Улучшил анимацию дропа лута.\n• Оптимизировал Императрицу звезд.\n• Ачивка.",
+  "notes": "Добавление нового героя\n\nИзменено\n• Герой пока имеет слабую способность к выживанию, но если найдете играбельную комбинацию - дайте знать.\n• Добавил гадальных карт и новую систему Нанесения и Получения Урона от разных Стихий.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.65/PrincessSurvival-1.0.65-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.66/PrincessSurvival-1.0.66-win64.zip"
 }
