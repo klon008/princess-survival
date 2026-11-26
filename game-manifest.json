@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.67",
+  "version": "1.0.68",
   "channel": "stable",
-  "publishedAt": "2026-11-26T10:00:08.3448681Z",
-  "zip": "PrincessSurvival-1.0.67-win64.zip",
-  "sizeBytes": 457515334,
-  "sha256": "ce6386ab258dc8dff3ca86a4a86ba7bc88bc24a63f77d259c96f0712ec43499e",
+  "publishedAt": "2026-11-26T20:09:32.6001071Z",
+  "zip": "PrincessSurvival-1.0.68-win64.zip",
+  "sizeBytes": 461763367,
+  "sha256": "0af202c3d01fa08a6101c634ebd4b2889d332a2f89c331f0cdca40e32b496fbd",
   "exe": "Princess Survival.exe",
-  "notes": "Промежуточный патч\n\nИзменено\n• В основном визуальные правки.\n• Правки и доработки нового героя.",
+  "notes": "Проработка Плато павших титанов",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.67/PrincessSurvival-1.0.67-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.68/PrincessSurvival-1.0.68-win64.zip"
 }
