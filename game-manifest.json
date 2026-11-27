@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.68",
+  "version": "1.0.69",
   "channel": "stable",
-  "publishedAt": "2026-11-26T20:09:32.6001071Z",
-  "zip": "PrincessSurvival-1.0.68-win64.zip",
-  "sizeBytes": 461763367,
-  "sha256": "0af202c3d01fa08a6101c634ebd4b2889d332a2f89c331f0cdca40e32b496fbd",
+  "publishedAt": "2026-11-27T20:38:30.8982394Z",
+  "zip": "PrincessSurvival-1.0.69-win64.zip",
+  "sizeBytes": 464537733,
+  "sha256": "6d1cd2782d0a9db38dfa8e6e1690e7c1ac06533bbddc95c7b692b59cc888d162",
   "exe": "Princess Survival.exe",
-  "notes": "Проработка Плато павших титанов",
+  "notes": "Большая обнова\n\nДобавлено\n• Новая система кузницы, для крафта предметов.\n• Новые уникальные предметы и\n\nИзменено\n• Много балансных правок нового героя.\n• Немного перерисовал спрайты героев.",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.68/PrincessSurvival-1.0.68-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.69/PrincessSurvival-1.0.69-win64.zip"
 }
