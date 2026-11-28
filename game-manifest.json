@@ -1,13 +1,13 @@
 {
   "game": "Princess Survival",
-  "version": "1.0.69",
+  "version": "1.0.70",
   "channel": "stable",
-  "publishedAt": "2026-11-27T20:38:30.8982394Z",
-  "zip": "PrincessSurvival-1.0.69-win64.zip",
-  "sizeBytes": 464537733,
-  "sha256": "6d1cd2782d0a9db38dfa8e6e1690e7c1ac06533bbddc95c7b692b59cc888d162",
+  "publishedAt": "2026-11-28T05:53:16.6680670Z",
+  "zip": "PrincessSurvival-1.0.70-win64.zip",
+  "sizeBytes": 464514536,
+  "sha256": "009febf3f6fab99880fe2d3290ffccbe528d150371b84b49101c02bfbdb337ab",
   "exe": "Princess Survival.exe",
-  "notes": "Большая обнова\n\nДобавлено\n• Новая система кузницы, для крафта предметов.\n• Новые уникальные предметы и\n\nИзменено\n• Много балансных правок нового героя.\n• Немного перерисовал спрайты героев.",
+  "notes": "Небольшие правки описаний, Фиксы критичных багов",
   "repo": "klon008/princess-survival",
-  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.69/PrincessSurvival-1.0.69-win64.zip"
+  "downloadUrl": "https://github.com/klon008/princess-survival/releases/download/v1.0.70/PrincessSurvival-1.0.70-win64.zip"
 }
